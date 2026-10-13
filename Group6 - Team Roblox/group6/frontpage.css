@@ -1,0 +1,137 @@
+@font-face {
+  font-family: "Roblox";
+  src: url("Roblox.ttf");
+}
+
+body {
+  margin: 0;
+  background-color: #121215;
+  background-image: url("rblxbg.jpg");
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.profilebackground {
+  width: 80%;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #232325;
+  border-radius: 30px;
+}
+
+.gr6 {
+  font-family: "Roblox";
+  color: #ffffff;
+  text-align: center;
+  font-size: 60px;
+  margin: 32px 12px;
+}
+
+.intro {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #f0f0f0;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.intro-message {
+  font-family: "Arial", Helvetica, Arial, sans-serif;
+  color: #f0f0f0;
+  text-align: center;
+  font-size: 18px;
+  margin: 10px 20px;
+}
+
+.button {
+  display: block;
+  width: 70%;
+  margin: 40px auto;
+  padding: 15px 10px;
+  background-color: #ffffff;
+  color: #252525;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.group-profile-pic img {
+  display: block;
+  width: 75%;
+  height: 75%;
+  border-radius: 2%;
+  border: 2px solid #ffffff;
+  margin: 0 auto;
+}
+
+.group-profile-pic {
+  text-align: center;
+  margin: 2px auto 32px;
+}
+
+.member-title {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #f0f0f0;
+  text-align: center;
+  margin-top: -30px;
+  margin-bottom: 30px;
+}
+
+.members {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+.members h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.members ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  width: 100%;
+  padding: 0;
+  list-style: none;
+  text-align: left;
+}
+
+.members li {
+  padding: 10px;
+}
+
+.members li .profile-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.members li img {
+  background-color: #393a41;
+  display: block;
+  width: 70%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.members li h3 {
+  font-weight: normal;
+  text-align: center;
+  margin: 20px 0 4px;
+  color: #ffffff;
+}
+
+.members li p {
+  text-align: center;
+  margin: 0;
+  font-size: 14px;
+  color: #ffffff;
+}
